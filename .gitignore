@@ -1,0 +1,102 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+Pods/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.apk
+*.keystore
+!debug.keystore
+!ecomi-debug.keystore
+*Keystore.properties
+!debugKeystore.properties
+android/.project
+android/.settings/
+android/app/.classpath
+android/app/.project
+android/app/.settings/
+
+# BUCK
+buck-out/
+\.buckd/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+node_modules/**/*
+
+npm-debug.*
+*.jks
+*.jks.bak
+*.p12
+*.key
+*.mobileprovision
+
+.jest-cache
+
+# CocoaPods
+/ios/Pods/
+
+# aws
+aws-config.js
+aws-exports.js
+
+#VS Code
+.vscode
+
+dist-mobile
+
+.prettierrc
+
+# Ruby gems
+vendor/
+
+firebase-debug.log
+
+# App Config
+.env
+env/index.js
+
+# intellij
+.idea
+local.properties
+
+# expo
+
+.expo
+.expo/*
+.expo-shared/
+web-build/
+
+dist
+
+# Bundle artifact
+*.jsbundle
+
